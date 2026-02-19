@@ -3,7 +3,11 @@
    height: 300px;
 
    /* TODO: Add part of your solution here */
-   
+   position: relative;
+   background: linear-gradient(to bottom, forestgreen, dargreen);
+   border-radius: 10px;
+   margin: 20px auto;
+   overflow: hidden;
 }
 
 .card-red {
@@ -24,17 +28,25 @@
    font-size: 80px;
 
    /* TODO: Add part of your solution here */
+   border-radius: 5px;
+   box-shadow: 3px 3px 2px black;
 
 }      
 
 .card-top {
    /* TODO: Add part of your solution here */
+    left: 150px;
+    top: 100px;
 
+    z-index: 2;
 }
 
 .card-bottom {
    /* TODO: Add part of your solution here */
-
+   position: absolute;
+   left: 150px;
+   top: 100px;
+    z-index: 1;
 }
 
 .heart {
@@ -55,10 +67,14 @@
 
 .top-left {
    /* TODO: Add part of your solution here */
-
+   position: absolute;
+   left: 2px;
+   top: 2px;
 }
 
 .bottom-right {
    /* TODO: Add part of your solution here */
-
+   position: absolute;
+   right: 2px;
+   bottom: 2px;
 }
